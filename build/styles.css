@@ -1,0 +1,56 @@
+.container {
+  background-color: #333333;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.bio, a {
+  color: white;
+}
+label {
+  margin-bottom: .8rem;
+  text-decoration: underline;
+}
+
+.editor {
+  margin: 3rem auto;
+  max-width: 75vw;
+}
+.editor > label {
+  color: white;
+}
+
+.previewDiv {
+  max-width: 75vw;
+  margin: .5rem auto;
+}
+
+textarea, .previewDiv {
+    border-radius: 5px;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 1px #777;
+    font-family: sans-serif;
+    background-color: white;
+}
+.previewDiv > * {
+  padding: .5rem;
+}
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid black;
+  background-color: #999;
+}
+
+td, th {
+  border: .5px solid black;
+  margin: .5rem;
+}
+pre {
+  background-color: #eee;
+}
