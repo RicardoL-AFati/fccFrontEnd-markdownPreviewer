@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Previewer from './components/previewer';
 
 const App = () => {
-  return <div>Hello!</div>
+  return (
+    <Previewer />
+  );
 }
 
 ReactDOM.render(<App />, document.querySelector('.container'));
